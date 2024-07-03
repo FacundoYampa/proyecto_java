@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainVehiculo",
+            "request": "launch",
+            "mainClass": "MainVehiculo",
+            "projectName": "hola_mundo_26ef3bf3"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

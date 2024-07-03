@@ -74,4 +74,10 @@ public class Vehiculo {
         return this.fechaCreacion;
     }
 
+    public void mostrarDatos(){
+        System.out.println("Vehiculo [marca=" + marca + ", modelo=" + modelo + ", anio=" + anio + ", chasis=" + chasis
+                + ", velocidad=" + velocidad + ", vmax=" + vmax + ", encendido=" + encendido + ", fechaCreacion="
+                + fechaCreacion + "]"); ;
+    }
+
 }
